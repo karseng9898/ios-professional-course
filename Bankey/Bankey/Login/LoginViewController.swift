@@ -35,7 +35,8 @@ class LoginViewController: UIViewController {
 // MARK: - Styles and Layouts
 extension LoginViewController {
     private func style() {
-        
+        loginView.translatesAutoresizingMaskIntoConstraints = false
+         
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
         stackView.spacing = 16
